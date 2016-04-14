@@ -1758,7 +1758,7 @@ void iot_hook_state_machine()
                 char buf[40+MAX_LEN_OF_SSID+CIPHER_TEXT_LEN];
 
                 memset(buf, 0, sizeof(buf));
-                strcpy(buf, "\r\n+WCAP:");
+                strcpy(buf, "\r\n+WCAP=");
                 strncpy(buf + strlen(buf), pIoTStaCfg->Ssid, pIoTStaCfg->SsidLen);
                 strcpy(buf + strlen(buf), ",");
                 strncpy(buf + strlen(buf), pIoTStaCfg->Passphase, pIoTStaCfg->PassphaseLen);

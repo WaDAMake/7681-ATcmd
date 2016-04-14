@@ -63,7 +63,7 @@
 #define DEFAULT_RECOVERY_MODE_STATUS  0    /*not used*/
 #define DEFAULT_IO_MODE                             0    /*not used*/
 
-#define DEFAULT_UART_BAUDRATE            UART_BAUD_115200
+#define DEFAULT_UART_BAUDRATE            UART_BAUD_38400
 #define DEFAULT_UART_DATA_BITS           len_8
 #define DEFAULT_UART_PARITY                 pa_none
 #define DEFAULT_UART_STOP_BITS           sb_1
