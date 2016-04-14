@@ -36,11 +36,11 @@
 #define        AT_CMD_MAX_LEN             (150)
 
 #if (ATCMD_RECOVERY_SUPPORT == 1)
-#define     FW_VERISON_CUST         "IoT_REC_V1.7.1"
+#define     FW_VERISON_CUST         "IoT_REC_V1.7.1_WD"
 #elif (CONFIG_SOFTAP == 1)
-#define     FW_VERISON_CUST         "IoT_AP_V1.7.1"
+#define     FW_VERISON_CUST         "IoT_AP_V1.7.1_WD"
 #else
-#define     FW_VERISON_CUST         "IoT_STA_V1.7.1"
+#define     FW_VERISON_CUST         "IoT_STA_V1.7.1_WD"
 #endif
 
 
